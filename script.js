@@ -1,9 +1,0 @@
-// open and close the menu
-const menuButton = document.querySelector("#menu-button");
-const navigation = document.querySelector("#navigation");
-
-menuButton.addEventListener("click", function () {
-  const isOpen = navigation.classList.toggle("open");
-  menuButton.setAttribute("aria-expanded", isOpen);
-});
-
